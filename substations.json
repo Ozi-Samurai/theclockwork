@@ -1,0 +1,504 @@
+{
+  "rooms": [
+    
+    {
+      "id": "gearshub",
+      "name": "Gears Hub",
+      "image": "gears.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["mustyoldtomb", "iheartvampireboys", "nooneinsight", "autoclave", "pinksubstation",
+      "theseaabovetheworld", "azuredrains", "secretshrine", "haikimonoclubandresort", "serenepromontory",
+      "starlightmonument", "blackplexus", "terminalcalculation", "strictconstruction", "strictconstructionendless",
+      "thenewnormal", "zepbyrus", "5893gu6g43ugu5i34y52843h24h24ib643gh5u8y38945gbj2a", "towerinthefog", "chromaticcorridors"]
+    },
+
+    {
+      "id": "mustyoldtomb",
+      "name": "Musty Old Tomb",
+      "image": "mustyoldtomb.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "somnambulantaquarium",
+      "name": "Somnambulant Aquarium",
+      "image": "somnambulant.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "iheartvampireboys",
+      "name": "I Heart Vampire Boys",
+      "image": "vampireboys.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "nooneinsight",
+      "name": "No One in Sight",
+      "image": "nooneinsight.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "autoclave",
+      "name": "Autoclave",
+      "image": "autoclave.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "pinksubstation",
+      "name": "Pink Substation",
+      "image": "pinksubstation.png", 
+      "level": -1,
+      "description": "744 floors below Gears. It's a long way down.",
+      "connections": ["gearshub", "lemurianlabyrinth"]
+    },
+
+    {
+      "id": "lemurianlabyrinth",
+      "name": "Lemurian Labyrinth",
+      "image": "lemurian.png", 
+      "level": -2,
+      "description": "",
+      "connections": ["pinksubstation"]
+    },
+
+    {
+      "id": "theseaabovetheworld",
+      "name": "The Sea Above the World",
+      "image": "seaabove.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "azuredrains",
+      "name": "Azure Drains",
+      "image": "azure.png", 
+      "level": -4,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "secretshrine",
+      "name": "Secret Shrine",
+      "image": "secretshrine.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "haikimonoclubandresort",
+      "name": "Haiki Mono Club and Resort",
+      "image": "haiki.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub", "chains"]
+    },
+
+    {
+      "id": "chains",
+      "name": "Chains",
+      "image": "chains.png", 
+      "level": -2,
+      "description": "",
+      "connections": ["haikimonoclubandresort"]
+    },
+
+    {
+      "id": "serenepromontory",
+      "name": "Serene Promontory",
+      "image": "serene.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "starlightmonument",
+      "name": "Starlight Monument",
+      "image": "starlight.png", 
+      "level": 4,
+      "description": "",
+      "connections": ["gearshub", "chromaticcorridors", "tuscantramway"]
+    },
+
+    {
+      "id": "duskendesistance",
+      "name": "Dusken Desistance",
+      "image": "dusken.png", 
+      "level": 4,
+      "description": "",
+      "connections": ["starlightmonument"]
+    },
+
+    {
+      "id": "smolderingarboretum",
+      "name": "Smoldering Arboretum (Unreleased)",
+      "image": "smoldering.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["starlightmonument"]
+    },
+
+    {
+      "id": "shamrocksanctum",
+      "name": "Shamrock Sanctum",
+      "image": "shamrock.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub", "bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "bartsimpsonpurgatorium",
+      "name": "Bart Simpson Purgatorium",
+      "image": "bartsimpsonpurgatory.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["shamrocksanctum", "abacusalley", "cartrideintotermiteking9", "eviltycoon",
+      "blueaccessway", "holybartsanctum", "oldcastledemo", "hallofkings", "sinisteroutpost", "deepoceanblues",
+      "greenaccessway", "tophetsmaw"]
+    },
+
+    {
+      "id": "abacusalley",
+      "name": "Abacus Alley",
+      "image": "abacus.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "cartrideintotermiteking9",
+      "name": "Cart Ride into Termiteking9",
+      "image": "cartride.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "eviltycoon",
+      "name": "EVIL TYCOON",
+      "image": "EVIL.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "blueaccessway",
+      "name": "Blue Accessway",
+      "image": "blueaccess.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "holybartsanctum",
+      "name": "Holy Bart Sanctum",
+      "image": "holybart.png", 
+      "level": -2,
+      "description": "",
+      "connections": ["bartsimpsonpurgatorium"]
+    },
+
+    {
+      "id": "oldcastledemo",
+      "name": "Oldcastle: Demo",
+      "image": "oldcastledemo.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "hallofkings",
+      "name": "Hall of Kings",
+      "image": "hallofkings.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "sinisteroutpost",
+      "name": "Sinister Outpost",
+      "image": "sinisteroutpost.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "deepoceanblues",
+      "name": "Deep Ocean Blues",
+      "image": "deepocean.png", 
+      "level": -3,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "greenaccessway",
+      "name": "Green Accessway",
+      "image": "green.png", 
+      "level": -4,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "tophetsmaw",
+      "name": "Tophet's Maw",
+      "image": "tophet.png", 
+      "level": -4,
+      "description": "",
+      "connections": ["shamrocksanctum"]
+    },
+
+    {
+      "id": "midnightmalfeasance",
+      "name": "Midnight Malfeasance",
+      "image": "midnight.png", 
+      "level": -4,
+      "description": "",
+      "connections": ["greenaccessway"]
+    },
+
+    {
+      "id": "blackplexus",
+      "name": "Black Plexus",
+      "image": "blackplexus.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub", "tuscantramway"]
+    },
+
+    {
+      "id": "terminalcalculation",
+      "name": "Terminal Calculation",
+      "image": "terminal.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "escapeagiantgarden",
+      "name": "Escape a Giant Garden",
+      "image": "escape.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "tancityscape",
+      "name": "Tan Cityscape",
+      "image": "tan.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "brownwoodwork",
+      "name": "Brown Woodwork",
+      "image": "woodwork.png", 
+      "level": -1,
+      "description": "",
+      "connections": ["tancityscape"]
+    },
+
+    {
+      "id": "strictconstruction",
+      "name": "Strict Construction",
+      "image": "strictconstruction.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "strictconstructionendless",
+      "name": "Strict Construction Endless",
+      "image": "strictconstructionendless.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "thenewnormal",
+      "name": "The New Normal",
+      "image": "thenewnormal.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "towerinthefog",
+      "name": "Tower in the Fog",
+      "image": "tower.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "5893gu6g43ugu5i34y52843h24h24ib643gh5u8y38945gbj2a",
+      "name": "5893gu6g43ugu5i34y52843h24h24ib643gh5u8y38945gbj2a",
+      "image": "serene.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "zepbyrus",
+      "name": "Zepbyrus",
+      "image": "zepbyrus.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "chromaticcorridors",
+      "name": "Chromatic Corridors",
+      "image": "chromatic.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub", "7fish", "oldcastle", "blizzardbypass", "gravitygardens", "teapottemple", "tuscantramway"]
+    },
+
+    {
+      "id": "7fish",
+      "name": "7Fish",
+      "image": "serene.png",
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "oldcastle",
+      "name": "Oldcastle (Unreleased)",
+      "image": "serene.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "blizzardbypass",
+      "name": "Blizzard Bypass",
+      "image": "serene.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "gravitygardens",
+      "name": "Gravity Gardens",
+      "image": "serene.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "teapottemple",
+      "name": "Teapot Temple",
+      "image": "serene.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["gearshub"]
+    },
+
+    {
+      "id": "tuscantramway",
+      "name": "Tuscan Tramway",
+      "image": "serene.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["gearshub", "blackplexus"]
+    },
+
+    {
+      "id": "desecratedobelisk",
+      "name": "Desecrated Obelisk",
+      "image": "serene.png", 
+      "level": -1,
+      "description": "",
+      "connections": ["chromaticcorridors"]
+    },
+
+    {
+      "id": "enchantersturnpike",
+      "name": "Enchanter's Turnpike",
+      "image": "serene.png", 
+      "level": 1,
+      "description": "",
+      "connections": ["tuscantramway"]
+    },
+
+    {
+      "id": "lavanderledges",
+      "name": "Lavander Ledges",
+      "image": "serene.png", 
+      "level": 3,
+      "description": "",
+      "connections": ["tuscantramway"]
+    },
+
+    {
+      "id": "theunderwatergospel",
+      "name": "The Underwater Gospel",
+      "image": "serene.png", 
+      "level": -4,
+      "description": "",
+      "connections": ["tuscantramway"]
+    },
+
+    {
+      "id": "cyansuperstructure",
+      "name": "Cyan Superstructure",
+      "image": "serene.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["tuscantramway"]
+    },
+
+    {
+      "id": "solaroverture",
+      "name": "Solar Overture",
+      "image": "serene.png", 
+      "level": 2,
+      "description": "",
+      "connections": ["starlightmonument"]
+    }
+  ]
+}

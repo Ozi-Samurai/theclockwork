@@ -1,0 +1,49 @@
+
+    html, body {
+      background: #000000;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #app {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #3d-graph {
+      width: 100%;
+      height: 100%;
+    }
+
+    #infoBox {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: absolute;
+      display: none;
+      background: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 12px;
+      border-radius: 10px;
+      width: 220px;
+      z-index: 10;
+    }
+
+    #infoBox img {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    #closeInfo {
+      position: absolute;
+      top: 6px;
+      right: 8px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }

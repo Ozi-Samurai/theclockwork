@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Clockwork</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <audio id="bgm" loop>
+      <source src="gears theme recreation.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="3d-graph"></div>
+
+    <div id="infoBox">
+      <button id="closeInfo">✕</button>
+      <h2 id="infoTitle"></h2>
+      <img id="infoImage" />
+      <p id="infoDesc"></p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/three@0.150.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph"></script>
+  <script src="script.js"></script>
+</body>
+</html>
