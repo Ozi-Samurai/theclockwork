@@ -111,9 +111,3 @@ function updateInfoPosition() {
   box.style.left = `${x + 12}px`;
   box.style.top = `${y + 12}px`;
 }
-
-
-document.getElementById('closeInfo').onclick = () => {
-  document.getElementById('infoBox').style.display = 'none';
-  selectedNode = null;
-};
