@@ -71,12 +71,17 @@ fetch('./substations.json')
     });
   });
 
-console.log(node);
 function showInfo(node) {
   const box = document.getElementById('infoBox');
   const title = document.getElementById('infoTitle');
   const img = document.getElementById('infoImage');
   const desc = document.getElementById('infoDesc');
+
+document.getElementById('closeInfo').onclick = () => {
+document.getElementById('infoBox').style.display = 'none';
+selectedNode = null;
+};
+
 
   desc.textContent = node.description || "No description available.";
   title.textContent = node.name;
